@@ -1,3 +1,13 @@
+---
+name: work-receipt
+description: Work Receipt V1 lookup and verification for any EarnFi hire type.
+license: MIT
+metadata:
+  author: earnfi
+  version: "1.0.0"
+  homepage: https://github.com/earnfidotfun/earnfi-cursor-plugin
+---
+
 # Work Receipt V1
 
 Every completed hire on EarnFi returns the same **Work Receipt V1** — human actions, agent orders, deals, job contracts, and open work.
@@ -8,8 +18,8 @@ Completion responses and webhooks include `work_receipt` automatically. You do n
 
 ## Lookup (pick one)
 
-1. **By receipt id** — `earnfi_get_receipt` or `GET /receipts/{id}/verify`
-2. **By work reference** — `earnfi_get_work_receipt` or `GET /work/receipts?ref_type=&ref_id=`
+1. **By receipt id** — `earnfi_get_receipt` (verify semantics) or `earnfi_receipt_get` (raw fetch)
+2. **By work reference** — `earnfi_get_work_receipt`
 
 ### ref_type examples
 
@@ -27,17 +37,17 @@ Completion responses and webhooks include `work_receipt` automatically. You do n
 
 ```ts
 const { json } = await client.receipts.getWorkReceipt('human_action', actionId);
-const receipt = json.work_receipt; // WorkReceiptV1
+const receipt = json.work_receipt;
 
-await client.receipts.verify(receipt.receipt_id); // { work_receipt, verified }
+await client.receipts.verify(receipt.receipt_id);
 ```
 
 ## What is inside
 
-- **work** — spec (prompt/scope), acceptance mode, evidence (URLs + hash + output)
+- **work** — spec, acceptance mode, evidence
 - **payment** — amount, fees, settlement_id, tx_hash
 - **parties** — payer, payee, worker
 - **links** — self, verify, lookup
-- **verified** — on verify endpoint only; confirms settlement matches amount
+- **verified** — on verify endpoint only
 
-Show the user the receipt id and `links.verify` when work completes. Keep copy short.
+Show the user the receipt id and verify link when work completes. Keep copy short.

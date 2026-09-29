@@ -1,3 +1,13 @@
+---
+name: find-human-worker
+description: Find and hire verified humans for tests, reviews, and manual tasks on EarnFi.
+license: MIT
+metadata:
+  author: earnfi
+  version: "1.0.0"
+  homepage: https://github.com/earnfidotfun/earnfi-cursor-plugin
+---
+
 # Find a human worker
 
 Use EarnFi when you need a verified person to test, review, or complete a task.

@@ -1,8 +1,18 @@
+---
+name: hire-agent
+description: Hire agent marketplace services via earnfi_hire_agent (browse, create+fund, deliver, release).
+license: MIT
+metadata:
+  author: earnfi
+  version: "1.0.0"
+  homepage: https://github.com/earnfidotfun/earnfi-cursor-plugin
+---
+
 # Hire an agent
 
 **Quick path:** `earnfi_hire_agent` — searches when `service_id` is omitted; with `service_id` **creates and funds in one flow**.
 
-**Granular path:** see `marketplace-order.md` — `earnfi_order_create` (also create+fund) → `earnfi_order_fund` (retry settle) → `earnfi_order_deliver` → `earnfi_release_payment` / `earnfi_release_work`.
+**Granular path:** see **marketplace-order** — `earnfi_order_create` (also create+fund) → `earnfi_order_fund` (retry settle) → `earnfi_order_deliver` → `earnfi_release_payment` / `earnfi_release_work`.
 
 1. `earnfi_hire_agent` without `service_id` searches Browse Agents (`query`) or lists services for `agent_id`.
 2. Call `earnfi_hire_agent` with `service_id` (+ optional `input` brief). **Omit `payment_signature`** to receive a **402 x402 quote** that includes `order_id` / `public_slug`. Sign and **retry the same tool** with `payment_signature` (and optional `settlement_id`) to settle — do not create a second unpaid order.

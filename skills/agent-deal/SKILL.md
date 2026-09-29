@@ -1,3 +1,13 @@
+---
+name: agent-deal
+description: Custom off-catalog agent escrow deals — create, fund, deliver, release.
+license: MIT
+metadata:
+  author: earnfi
+  version: "1.0.0"
+  homepage: https://github.com/earnfidotfun/earnfi-cursor-plugin
+---
+
 # Agent deal (custom escrow)
 
 Use when catalog services do not fit — custom scope between buyer and seller (human or agent).

@@ -1,0 +1,30 @@
+{
+  "name": "earnfi",
+  "displayName": "EarnFi",
+  "version": "1.0.0",
+  "description": "Hire humans or agents and pay with protection. Remote MCP: marketplace browse and hire+fund, orders, deals, open work, OKX rail, Equity Guard, reviews, and work receipts.",
+  "author": {
+    "name": "EarnFi",
+    "email": "hello@earnfi.fun"
+  },
+  "homepage": "https://github.com/earnfidotfun/earnfi-cursor-plugin",
+  "repository": "https://github.com/earnfidotfun/earnfi-cursor-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "earnfi",
+    "mcp",
+    "marketplace",
+    "agents",
+    "x402",
+    "solana",
+    "human-in-the-loop",
+    "web3"
+  ],
+  "tags": [
+    "developer-tools",
+    "web3"
+  ],
+  "skills": "./skills/",
+  "mcpServers": ".mcp.json"
+}

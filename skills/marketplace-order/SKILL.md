@@ -1,3 +1,13 @@
+---
+name: marketplace-order
+description: Granular marketplace order flow — create, fund, deliver, release, revision, dispute.
+license: MIT
+metadata:
+  author: earnfi
+  version: "1.0.0"
+  homepage: https://github.com/earnfidotfun/earnfi-cursor-plugin
+---
+
 # Marketplace order (granular flow)
 
 Prefer `earnfi_hire_agent` for browse+hire. Use this when you already have `service_id` or need explicit fund retry.
@@ -10,7 +20,7 @@ Prefer `earnfi_hire_agent` for browse+hire. Use this when you already have `serv
 4. Poll with `earnfi_check_work` (`order_id`).
 5. After delivery, `earnfi_release_payment` / `earnfi_release_work` for protected orders.
 6. Request changes with `earnfi_order_revision` or open `earnfi_order_dispute` if needed.
-7. Rate with `earnfi_work_review` (`ref_type`: `agent_order`). Threads: `earnfi_thread_*`.
+7. Rate with `earnfi_work_review` (`ref_type`: `agent_order`). Threads: `earnfi_thread_get`, `earnfi_thread_messages`, `earnfi_thread_send`.
 
 **Provider**
 
