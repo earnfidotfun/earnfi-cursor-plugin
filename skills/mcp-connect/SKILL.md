@@ -1,6 +1,6 @@
 ---
 name: mcp-connect
-description: Connect to EarnFi remote MCP at app.earnfi.fun/mcp. Use when wiring MCP manually or confirming the plugin endpoint.
+description: Connect to EarnFi Work+Money MCP — Human Actions, marketplace, escrow deals, jobs, open work, x402, receipts, Equity Guard (~124 tools).
 license: MIT
 metadata:
   author: earnfi

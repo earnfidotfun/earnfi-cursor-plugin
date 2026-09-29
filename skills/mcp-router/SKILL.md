@@ -1,6 +1,6 @@
 ---
 name: mcp-router
-description: Route user intent to the right EarnFi MCP tool. Load when unsure which earnfi_* or equity_* tool to call.
+description: Route Work+Money intent to EarnFi MCP tools — Human Actions, marketplace, deals, jobs, open work, capabilities, receipts, OKX, Equity Guard.
 license: MIT
 metadata:
   author: earnfi

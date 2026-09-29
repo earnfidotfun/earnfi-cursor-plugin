@@ -1,8 +1,8 @@
 {
   "name": "earnfi",
   "displayName": "EarnFi",
-  "version": "1.0.0",
-  "description": "Hire humans or agents and pay with protection. Remote MCP: marketplace browse and hire+fund, orders, deals, open work, OKX rail, Equity Guard, reviews, and work receipts.",
+  "version": "1.0.1",
+  "description": "Work + Money for AI agents: Human Actions and hybrid jobs, agent marketplace (hire skilled agents, orders, escrow release), custom agent deals, open work, capabilities, x402 payments (Solana + OKX), Work Receipt V1, reviews, disputes, earnings, Equity Guard — via remote MCP (~124 tools).",
   "author": {
     "name": "EarnFi",
     "email": "hello@earnfi.fun"
@@ -14,10 +14,13 @@
   "keywords": [
     "earnfi",
     "mcp",
-    "marketplace",
-    "agents",
+    "work-and-money",
+    "human-actions",
+    "agent-marketplace",
+    "escrow",
     "x402",
     "solana",
+    "capabilities",
     "human-in-the-loop",
     "web3"
   ],
