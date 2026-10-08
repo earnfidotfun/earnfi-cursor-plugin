@@ -1,0 +1,17 @@
+---
+description: When using EarnFi, call MCP tools on https://app.earnfi.fun/mcp — do not invent REST paths or mix payment rails.
+alwaysApply: false
+---
+
+# EarnFi MCP first
+
+When the EarnFi MCP server is enabled:
+
+1. **Use MCP tools only** — do not guess `/api/ai-agent/...` URLs; call `earnfi_*` / `equity_*` tools.
+2. **Bootstrap** — `earnfi_agent_catalog`, `earnfi_payment_rails`, or `earnfi_register_info` for discovery.
+3. **Pay-first** — on paid creates, omit `payment_signature` for the 402 quote, sign x402 for the quoted rail, retry the **same** tool with `payment_signature`.
+4. **Rails** — Solana USDC (`/api/ai-agent/v1`) and OKX USDT0 (`/api/ai-agent/okx/v1`) are isolated. Never send Solana proofs to OKX tools or EVM proofs to Solana tools.
+5. **Equity Guard** — call `equity_get_glossary` before explaining badges or trade decisions to users.
+6. **Receipts** — after paid work, prefer `earnfi_get_work_receipt` / `earnfi_receipt_get` for verification.
+
+Load the **mcp-router** skill for intent → tool mapping.

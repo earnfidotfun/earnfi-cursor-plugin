@@ -37,9 +37,8 @@ Programmable safety for tokenized equities on Solana. MCP tools call the Growl e
 - `equity_get_portfolio` — map wallet holdings to registry
 - `equity_protect_portfolio` — exit check plan per holding
 
-## Liquidity / launch (advanced)
+## Liquidity (advanced)
 
 - `equity_meteora_pools`, `equity_meteora_claw_pools`, `equity_meteora_stock_pairs`
-- `equity_clawpump_health`, `equity_clawpump_launch`
 
 Agent API alias (SDK): `client.equity.*` on `@earn-fi/agent-client`. Prefer MCP tools when already connected.

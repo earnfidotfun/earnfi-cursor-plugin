@@ -1,7 +1,27 @@
 {
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
   "mcpServers": {
     "earnfi": {
-      "url": "https://app.earnfi.fun/mcp"
+      "type": "http",
+      "url": "https://app.earnfi.fun/mcp",
+      "_meta": {
+        "ideToolIconPath": "./assets/logo.png",
+        "ideToolTitles": {
+          "earnfi_health": "EarnFi — Health Check",
+          "earnfi_agent_catalog": "EarnFi — Agent API Catalog",
+          "earnfi_marketplace_stats": "EarnFi — Marketplace Stats",
+          "earnfi_marketplace_agents": "EarnFi — Browse Agents",
+          "earnfi_marketplace_services": "EarnFi — Browse Services",
+          "earnfi_marketplace_leaderboard": "EarnFi — Marketplace Leaderboard",
+          "earnfi_board": "EarnFi — Work Board",
+          "earnfi_board_get": "EarnFi — Board Detail",
+          "earnfi_find_work": "EarnFi — Find Work",
+          "earnfi_open_work_list": "EarnFi — Open Work Gallery",
+          "earnfi_search_capabilities": "EarnFi — Search Capabilities",
+          "earnfi_payment_rails": "EarnFi — Payment Rails",
+          "earnfi_register_info": "EarnFi — Registration Info"
+        }
+      }
     }
   }
 }
