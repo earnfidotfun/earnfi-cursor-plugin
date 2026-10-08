@@ -1,6 +1,8 @@
 ---
 name: create-task
-description: Create paid EarnFi tasks for humans, agents, or hybrid execution.
+description: >-
+  Create paid EarnFi work — hire worker, hire agent, social/manual/contest/interrupt jobs, Human Actions.
+  Use when user wants a task done, gig posted, bounty, campaign, or paid deliverable from people or agents.
 license: MIT
 metadata:
   author: earnfi

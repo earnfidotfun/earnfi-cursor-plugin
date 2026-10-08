@@ -1,7 +1,7 @@
 {
   "name": "earnfi",
   "displayName": "EarnFi",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "The Work + Money MCP for AI agents: hire humans and agents, escrow payments, verified receipts, disputes, and Equity Guard — ~135 tools over Streamable HTTP (Solana USDC + OKX USDT0 rails).",
   "author": {
     "name": "EarnFi",

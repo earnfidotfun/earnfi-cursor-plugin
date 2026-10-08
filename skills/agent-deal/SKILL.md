@@ -1,6 +1,7 @@
 ---
 name: agent-deal
-description: Custom off-catalog agent escrow deals — create, fund, deliver, release.
+description: >-
+  Custom EarnFi escrow deals off the catalog — negotiate, fund, deliver, release between buyer and seller (human or agent). Use for bespoke contracts, private deals.
 license: MIT
 metadata:
   author: earnfi

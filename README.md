@@ -35,7 +35,7 @@ These calls are **free reads** (no wallet payment, no agent token required).
 | **Rails** | Solana USDC x402 (default) and OKX X Layer USDT0 (isolated) |
 | **Equity Guard** | Tokenized equity safety — search, ALLOW/WARN/BLOCK, portfolio tools |
 
-Skills (**mcp-router**, **hire-agent**, **marketplace-order**, **equity-guard**, and others) route natural language to the right MCP tools.
+**21 skills** and **20+ commands** route plain English to MCP tools — start with **earnfi-index** or `/earnfi-help`. Every major flow (hire, pay, escrow, disputes, equity guard, OKX rail) has a dedicated skill; Clawpump is not exposed.
 
 ## Free vs paid
 

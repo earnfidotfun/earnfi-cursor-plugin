@@ -1,6 +1,8 @@
 ---
 name: equity-guard
-description: Tokenized equity safety — search assets, ALLOW/WARN/BLOCK trades, portfolio protection via equity_* MCP tools.
+description: >-
+  Tokenized equity safety on Solana — search assets, passport, trade preview/authorize/simulate, receipts, peg,
+  circuit breaker, liquidity, portfolio protect, Meteora pools. Use for stock tokens, equity guard, ALLOW/WARN/BLOCK.
 license: MIT
 metadata:
   author: earnfi

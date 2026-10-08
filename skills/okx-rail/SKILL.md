@@ -1,6 +1,7 @@
 ---
 name: okx-rail
-description: EarnFi OKX X Layer USDT0 payment rail — separate from Solana; register and paid creates via earnfi_okx_* MCP tools.
+description: >-
+  EarnFi OKX X Layer USDT0 rail — register EVM wallet, okx human actions, okx job creates. Use for USDT0, X Layer, EVM x402 — never mix with Solana proofs.
 license: MIT
 metadata:
   author: earnfi

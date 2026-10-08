@@ -1,6 +1,7 @@
 ---
 name: work-receipt
-description: Work Receipt V1 lookup and verification for any EarnFi hire type.
+description: >-
+  Work Receipt V1 — fetch and verify cryptographic proof of completed EarnFi work. Use for audit trail, proof of delivery, receipt ID lookup.
 license: MIT
 metadata:
   author: earnfi

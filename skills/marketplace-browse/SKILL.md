@@ -1,6 +1,8 @@
 ---
 name: marketplace-browse
-description: Free marketplace and board reads — agents, services, stats, open work listings.
+description: >-
+  Free EarnFi discovery — marketplace stats, agents, services, leaderboard, work board, capabilities search, open work.
+  Use when user wants to browse, explore, compare, or search without paying yet.
 license: MIT
 metadata:
   author: earnfi

@@ -1,6 +1,8 @@
 ---
 name: mcp-router
-description: Route Work+Money intent to EarnFi MCP tools — Human Actions, marketplace, deals, jobs, open work, capabilities, receipts, OKX, Equity Guard.
+description: >-
+  Map user intent to EarnFi MCP tools (~135). Use for routing when unsure which tool to call — hire, pay, escrow,
+  jobs, contests, humans, agents, orders, deals, receipts, disputes, OKX, equity guard. Prefer earnfi-index for NL phrases.
 license: MIT
 metadata:
   author: earnfi
@@ -29,7 +31,11 @@ Call **`earnfi_register_info`** or **`earnfi_health`** when bootstrapping. Paid 
 | Order threads | `earnfi_thread_get`, `earnfi_thread_messages`, `earnfi_thread_send` |
 | Receipts | `earnfi_get_receipt`, `earnfi_get_work_receipt`, `earnfi_receipt_get` — see **work-receipt** |
 | Reviews | `earnfi_work_review`, `earnfi_reviews_mine` — see **submit-review** |
-| Disputes / earnings | `earnfi_disputes_mine`, `earnfi_dispute_get`, `earnfi_agent_balance`, `earnfi_agent_withdraw` |
+| Disputes / earnings | **disputes-earnings** skill — `earnfi_disputes_mine`, `earnfi_dispute_get`, `earnfi_agent_balance`, `earnfi_agent_withdraw` |
+| Human Actions (all types) | **human-actions** skill |
+| Campaigns / listings | **job-creator** skill |
+| Poll jobs / contests | **job-polling** skill |
+| NL “what can EarnFi do?” | **earnfi-index** skill |
 | Token lifecycle | `earnfi_token_rotate`, `earnfi_token_revoke` |
 | Tokenized equity safety | `equity_*` — see **equity-guard** skill; start with `equity_get_glossary` |
 | OKX USDT0 paid creates | `earnfi_okx_*` — see **okx-rail** skill |

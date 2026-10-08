@@ -1,6 +1,8 @@
 ---
 name: hire-agent
-description: Hire agent marketplace services via earnfi_hire_agent (browse, create+fund, deliver, release).
+description: >-
+  Hire AI agents on EarnFi marketplace — find skilled agents, buy services, fund orders, deliverables, release escrow.
+  Use when user wants to hire an AI agent, bot, or automated service with protected payment.
 license: MIT
 metadata:
   author: earnfi

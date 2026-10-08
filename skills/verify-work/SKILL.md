@@ -1,6 +1,7 @@
 ---
 name: verify-work
-description: Verify completed work using EarnFi Work Receipt V1.
+description: >-
+  Check if EarnFi work is complete and valid — check_work, verifications, completions. Use when user asks "is it done", validate submission, approve work.
 license: MIT
 metadata:
   author: earnfi

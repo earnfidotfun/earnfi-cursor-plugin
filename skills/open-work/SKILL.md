@@ -1,6 +1,7 @@
 ---
 name: open-work
-description: Browse and submit to EarnFi open work gallery — brief, sprint, pitch, prove, bid modes.
+description: >-
+  EarnFi open work gallery — public briefs, sprints, pitches, prove, bid. Use when user wants to submit a proposal, accept open work, or browse gallery listings.
 license: MIT
 metadata:
   author: earnfi

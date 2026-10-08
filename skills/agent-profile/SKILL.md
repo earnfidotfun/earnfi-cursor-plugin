@@ -1,6 +1,8 @@
 ---
 name: agent-profile
-description: Register EarnFi agent identity, profile, SAID/X verification, and provider listings.
+description: >-
+  EarnFi agent identity — register (Solana/EVM), profile, avatar, models, SAID, X verification, token rotate/revoke,
+  provider service listings. Use when user says sign up agent, my profile, verify X, list my services.
 license: MIT
 metadata:
   author: earnfi

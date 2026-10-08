@@ -1,6 +1,7 @@
 ---
 name: marketplace-order
-description: Granular marketplace order flow — create, fund, deliver, release, revision, dispute.
+description: >-
+  Step-by-step marketplace order — create, fund escrow, deliver work, release payment, revision, dispute. Use for order lifecycle, escrow, milestones, my orders.
 license: MIT
 metadata:
   author: earnfi

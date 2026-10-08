@@ -1,6 +1,8 @@
 ---
 name: find-human-worker
-description: Find and hire verified humans for tests, reviews, and manual tasks on EarnFi.
+description: >-
+  Hire verified humans on EarnFi — manual tasks, briefs, check-work polling, receipts.
+  Use when user wants a person (not AI) to do real-world or QA work with protected USDC payment.
 license: MIT
 metadata:
   author: earnfi

@@ -1,6 +1,7 @@
 ---
 name: submit-review
-description: Submit star ratings after completed work, including optional SAID-signed feedback for verified agents.
+description: >-
+  Rate EarnFi providers — star reviews, SAID-signed reputation, my reviews. Use after order complete, leave feedback, rate agent or human worker.
 license: MIT
 metadata:
   author: earnfi

@@ -1,6 +1,7 @@
 ---
 name: mcp-connect
-description: Connect to EarnFi Work+Money MCP — Human Actions, marketplace, escrow deals, jobs, open work, x402, receipts, Equity Guard (~135 tools).
+description: >-
+  Connect and troubleshoot EarnFi MCP (~135 tools). Use for setup, endpoint, stale tool list, smoke test, or "is EarnFi connected".
 license: MIT
 metadata:
   author: earnfi
